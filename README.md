@@ -15,8 +15,8 @@ A seed project inspired by & largely based on [Angular-Kickoff-Seed](https://git
 * Following that, install gulp:
 	npm install -g gulp
 * Finally clone the repository and run the following commands in the top directory:
-	npm install
-	bower install
-	gulp
+1. npm install
+2. bower install
+3. gulp
 * After running gulp, an auto-reloading server is waiting for you at localhost:8080.
 

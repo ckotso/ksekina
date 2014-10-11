@@ -1,6 +1,33 @@
 {
-  "name": "ksekina",
-  "version": "0.1.0",
+  name: 'ksekina',
+  version: '0.1.0',
+  authors: [
+    'Costas Kotsokalis'
+  ],
+  description: 'A Coffescript/Jade/Stylus/Gulp seed project with jQuery, Bootstrap, AngularJS, Angular-UI-Router and ngClassify',
+  main: 'package.json',
+  keywords: [
+    'Coffeescript',
+    'Jade',
+    'Stylus',
+    'Gulp',
+    'jQuery',
+    'Bootstrap',
+    'Angular',
+    'AngularJS',
+    'Angular-UI-Router',
+    'ngClassify',
+    'seed'
+  ],
+  license: 'MIT',
+  homepage: 'https://github.com/ckotso/ksekina',
+  ignore: [
+    '**/.*',
+    'node_modules',
+    'bower_components',
+    'test',
+    'tests'
+  ],
   "dependencies": {
     "jquery": "~2.1",
     "angular": "~1.2",
@@ -17,4 +44,3 @@
     "angular-scenario": "~1.2"
   }
 }
-

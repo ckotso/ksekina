@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+
+	head
+		meta(charset="utf-8")
+		title My application
+		meta(name="viewport" content="initial-scale=1, width=device-width")
+		meta(name="description", content="")
+		
+		<!-- build:css lib.css -->
+		link(href="lib.css" rel="stylesheet")
+		<!-- endbuild -->
+		
+		<!-- build:css app.css -->
+		link(href="app.css" rel="stylesheet")
+		<!-- endbuild -->
+
+	body(data-ng-app="app")
+		<!--[if lt IE 10]>
+		p(class="browsehappy")
+			| You are using an 
+			strong outdated
+			|  browser. Please 
+			a(href="http://browsehappy.com/") upgrade your browser
+			|  to improve your experience.
+		<![endif]-->
+	
+		.container-fluid.app-container(data-ui-view="")
+		
+		<!--[if lt IE 9]>
+		<!-- build:js oldieshim.js -->
+		script(src="oldieshim.js")
+		<!-- endbuild -->
+		<![endif]-->
+		
+		<!-- build:js lib.js -->
+		script(src="lib.js")
+		<!-- endbuild -->
+		
+		<!-- build:js templates.js -->
+		script(src="templates.js")
+		<!-- endbuild -->
+		
+		<!-- build:js app.js -->
+		script(src="app.js")
+		<!-- endbuild -->
